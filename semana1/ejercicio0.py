@@ -1,7 +1,11 @@
-x = float(input("dime un numero "))
-y = float(input("dime otro numero "))
+def main():
+    nombre = input("Como te llamas ")
+    edad = input("Cuantos años tienes ")
+    presentar(nombre, edad)
 
-print(f"Suma: {x + y:.2f}")
-print(f"Resta: {x - y:.2f}")
-print(f"Multiplicacion: {x * y:.2f}")
-print(f"Division: {x / y:.2f}")
+
+def presentar(nombre, edad):
+    print(f"Hola, soy {nombre} y tengo {edad} años")
+
+
+main()
